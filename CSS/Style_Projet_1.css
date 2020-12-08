@@ -1,10 +1,20 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.CV{
+        display: flex;
+        height: 1250px;
+        width: 900px;
+}
+
 .gauche {
         background-color: #4a4a4c;
         display: inline-block;
         height: 1250px;
         margin: 0px;
         vertical-align: top;
-        width: 25%
+        width: 25%;
 }
 
 .droite{
@@ -16,39 +26,88 @@
 }
 
 .pingouin {
-      filter: grayscale(100%);
-      width: 200px;
-      border-radius: 50%;
-      border: 10px solid white;
-      margin-left: 10px;
-      margin-top: 30px;
+        filter: grayscale(100%);
+        width: 200px;
+        border-radius: 50%;
+        border: 10px solid white;
+        margin-left: 10px;
+        margin-top: 30px;
 }
 
 h1{
   font-family: 'Roboto';
   color: black;
   font-weight: bold;
-
-.h2_contact{
-      color: white;
 }
 
+h1 span{
+  color: #11a9f3;
+}
+
+.contact h2, .skills h2, .langue h2{
+    color: white;
+}
+
+.contact{
+
+}
+ul{
+    color: white;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
 .bleu{
       color: #11a9f3;
 }
 
-}
+
 h4{
   font-family: 'Roboto', 'Open Sans', 'Sans-sherif';
   color: black;
 }
+
+h5{
+  color: #11a9f3;
+}
+
 h6{
   color: white;
   font-size: 19px;
 }
 
-i{
+.contact p, .skills p, .langue p{
+    color: white;
+}
+
+
+.text{
+    display: inline-block;
+    color: white;
+    width: 100px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.icones{
+    display: inline-block;
+}
+
+#etoile{
+      color:white;
+      font-size: 12px;
+}
+
+.white{
+  background: #11a9f3;
   color: white;
+  font-size: 19px;
+}
+
+.blue{
+  background: white;
+  color: #11a9f3;
   font-size: 19px;
 }
 
