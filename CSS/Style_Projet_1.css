@@ -1,0 +1,57 @@
+.gauche {
+        background-color: #4a4a4c;
+        display: inline-block;
+        height: 1250px;
+        margin: 0px;
+        vertical-align: top;
+        width: 25%
+}
+
+.droite{
+        background-color: #f8f8f8;
+        display: inline-block;
+        height: 1250px;
+        margin: 0px;
+        width: 50%;
+}
+
+.pingouin {
+      filter: grayscale(100%);
+      width: 200px;
+      border-radius: 50%;
+      border: 10px solid white;
+      margin-left: 10px;
+      margin-top: 30px;
+}
+
+h1{
+  font-family: 'Roboto';
+  color: black;
+  font-weight: bold;
+
+.h2_contact{
+      color: white;
+}
+
+.bleu{
+      color: #11a9f3;
+}
+
+}
+h4{
+  font-family: 'Roboto', 'Open Sans', 'Sans-sherif';
+  color: black;
+}
+h6{
+  color: white;
+  font-size: 19px;
+}
+
+i{
+  color: white;
+  font-size: 19px;
+}
+
+/*bleu:#11a9f3
+Gris : #4a4a4c
+Gris clair : #f8f8f8*/
